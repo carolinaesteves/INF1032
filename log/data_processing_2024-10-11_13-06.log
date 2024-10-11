@@ -1,0 +1,6 @@
+2024-10-11 13:06:07,072 - INFO - Logging configurado para: data_processing.
+2024-10-11 13:06:07,073 - INFO - Comecando Aplicacao ...
+2024-10-11 13:06:07,073 - INFO - Starting the data extraction process...
+2024-10-11 13:06:07,459 - ERROR - Error processing BCB data for selic_bcb: Cannot save file into a non-existent directory: 'data\extraction'
+2024-10-11 13:06:08,140 - ERROR - Error processing BCB data for ipca_bcb: Cannot save file into a non-existent directory: 'data\extraction'
+2024-10-11 13:06:17,726 - ERROR - Error processing BCB data for cambio_bcb: Cannot save file into a non-existent directory: 'data\extraction'

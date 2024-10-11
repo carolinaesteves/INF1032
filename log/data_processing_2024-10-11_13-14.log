@@ -1,0 +1,118 @@
+2024-10-11 13:14:35,597 - INFO - Logging configurado para: data_processing.
+2024-10-11 13:14:35,597 - INFO - Comecando Aplicacao ...
+2024-10-11 13:14:35,599 - INFO - Iniciando o processo de extração de dados...
+2024-10-11 13:14:47,437 - INFO - Diretório criado: data/extraction/
+2024-10-11 13:14:47,463 - INFO - Dados do BCB para selic_bcb salvos em 'data/extraction/bcb_data_selic_bcb.csv'
+2024-10-11 13:14:49,779 - INFO - Dados do BCB para ipca_bcb salvos em 'data/extraction/bcb_data_ipca_bcb.csv'
+2024-10-11 13:14:51,071 - INFO - Dados do BCB para cambio_bcb salvos em 'data/extraction/bcb_data_cambio_bcb.csv'
+2024-10-11 13:14:51,883 - INFO - Dados do BCB para fx_buy_bcb salvos em 'data/extraction/bcb_data_fx_buy_bcb.csv'
+2024-10-11 13:14:52,218 - INFO - Dados do BCB para fx_sell_bcb salvos em 'data/extraction/bcb_data_fx_sell_bcb.csv'
+2024-10-11 13:14:52,353 - INFO - Dados do BCB para gdp_bcb salvos em 'data/extraction/bcb_data_gdp_bcb.csv'
+2024-10-11 13:14:52,514 - INFO - Dados do BCB para core_cpi_bcb salvos em 'data/extraction/bcb_data_core_cpi_bcb.csv'
+2024-10-11 13:14:52,982 - INFO - Dados do BCB para commodities_bcb_composto_em_real salvos em 'data/extraction/bcb_data_commodities_bcb_composto_em_real.csv'
+2024-10-11 13:14:53,151 - INFO - Dados do BCB para commodities_bcb_agropecuaria_em_real salvos em 'data/extraction/bcb_data_commodities_bcb_agropecuaria_em_real.csv'
+2024-10-11 13:14:54,044 - INFO - Dados do BCB para commodities_bcb_metal_em_real salvos em 'data/extraction/bcb_data_commodities_bcb_metal_em_real.csv'
+2024-10-11 13:14:54,630 - INFO - Dados do BCB para commodities_bcb_energia_em_real salvos em 'data/extraction/bcb_data_commodities_bcb_energia_em_real.csv'
+2024-10-11 13:14:54,878 - INFO - Dados do BCB para unemployment_bcb salvos em 'data/extraction/bcb_data_unemployment_bcb.csv'
+2024-10-11 13:14:54,987 - INFO - Ipeadata para pib_series salvo em 'data/extraction/ipeadata_pib_series.csv'
+2024-10-11 13:14:56,859 - INFO - Dados do Yahoo Finance para ^BVSP salvos em 'data/extraction/yahoo_finance_^BVSP.csv'
+2024-10-11 13:14:57,422 - INFO - Dados do Yahoo Finance para BRL=X salvos em 'data/extraction/yahoo_finance_BRL=X.csv'
+2024-10-11 13:14:58,030 - INFO - Dados do Yahoo Finance para CL=F salvos em 'data/extraction/yahoo_finance_CL=F.csv'
+2024-10-11 13:14:59,022 - INFO - Dados do Yahoo Finance para GC=F salvos em 'data/extraction/yahoo_finance_GC=F.csv'
+2024-10-11 13:14:59,423 - INFO - Dados do Yahoo Finance para ZC=F salvos em 'data/extraction/yahoo_finance_ZC=F.csv'
+2024-10-11 13:15:00,882 - INFO - Dados do Yahoo Finance para KC=F salvos em 'data/extraction/yahoo_finance_KC=F.csv'
+2024-10-11 13:15:02,485 - INFO - Dados do Yahoo Finance para ZS=F salvos em 'data/extraction/yahoo_finance_ZS=F.csv'
+2024-10-11 13:15:03,239 - INFO - Dados do Yahoo Finance para ZW=F salvos em 'data/extraction/yahoo_finance_ZW=F.csv'
+2024-10-11 13:15:04,051 - INFO - Dados do Yahoo Finance para HG=F salvos em 'data/extraction/yahoo_finance_HG=F.csv'
+2024-10-11 13:15:05,338 - INFO - Dados do Yahoo Finance para NG=F salvos em 'data/extraction/yahoo_finance_NG=F.csv'
+2024-10-11 13:15:06,655 - INFO - Dados do Yahoo Finance para ^GSPC salvos em 'data/extraction/yahoo_finance_^GSPC.csv'
+2024-10-11 13:15:07,945 - INFO - Dados do Yahoo Finance para ^TNX salvos em 'data/extraction/yahoo_finance_^TNX.csv'
+2024-10-11 13:15:11,488 - ERROR - 
+1 Failed download:
+2024-10-11 13:15:11,488 - ERROR - ['BCOM']: Exception('%ticker%: No timezone found, symbol may be delisted')
+2024-10-11 13:15:11,488 - ERROR - Erro ao processar dados do Yahoo Finance para BCOM: No data found for ticker BCOM in the given date range.
+2024-10-11 13:15:12,346 - INFO - Dados do Yahoo Finance para CPI salvos em 'data/extraction/yahoo_finance_CPI.csv'
+2024-10-11 13:15:12,346 - INFO - Processo de extração de dados concluído.
+2024-10-11 13:15:12,346 - INFO - Iniciando o processo de tratamento de arquivos...
+2024-10-11 13:15:12,347 - INFO - Processando arquivo: data/extraction/bcb_data_cambio_bcb.csv
+2024-10-11 13:15:12,347 - INFO - Processando arquivo BCB: data/extraction/bcb_data_cambio_bcb.csv
+2024-10-11 13:15:12,372 - INFO - Diretório criado: data/treatment
+2024-10-11 13:15:12,405 - INFO - Arquivo BCB tratado salvo com sucesso: data/treatment\bcb_data_cambio_bcb.csv
+2024-10-11 13:15:12,405 - INFO - Processando arquivo: data/extraction/bcb_data_commodities_bcb_agropecuaria_em_real.csv
+2024-10-11 13:15:12,406 - INFO - Processando arquivo BCB: data/extraction/bcb_data_commodities_bcb_agropecuaria_em_real.csv
+2024-10-11 13:15:12,455 - INFO - Arquivo BCB tratado salvo com sucesso: data/treatment\bcb_data_commodities_bcb_agropecuaria_em_real.csv
+2024-10-11 13:15:12,455 - INFO - Processando arquivo: data/extraction/bcb_data_commodities_bcb_composto_em_real.csv
+2024-10-11 13:15:12,455 - INFO - Processando arquivo BCB: data/extraction/bcb_data_commodities_bcb_composto_em_real.csv
+2024-10-11 13:15:12,511 - INFO - Arquivo BCB tratado salvo com sucesso: data/treatment\bcb_data_commodities_bcb_composto_em_real.csv
+2024-10-11 13:15:12,519 - INFO - Processando arquivo: data/extraction/bcb_data_commodities_bcb_energia_em_real.csv
+2024-10-11 13:15:12,519 - INFO - Processando arquivo BCB: data/extraction/bcb_data_commodities_bcb_energia_em_real.csv
+2024-10-11 13:15:12,561 - INFO - Arquivo BCB tratado salvo com sucesso: data/treatment\bcb_data_commodities_bcb_energia_em_real.csv
+2024-10-11 13:15:12,569 - INFO - Processando arquivo: data/extraction/bcb_data_commodities_bcb_metal_em_real.csv
+2024-10-11 13:15:12,569 - INFO - Processando arquivo BCB: data/extraction/bcb_data_commodities_bcb_metal_em_real.csv
+2024-10-11 13:15:12,617 - INFO - Arquivo BCB tratado salvo com sucesso: data/treatment\bcb_data_commodities_bcb_metal_em_real.csv
+2024-10-11 13:15:12,619 - INFO - Processando arquivo: data/extraction/bcb_data_core_cpi_bcb.csv
+2024-10-11 13:15:12,619 - INFO - Processando arquivo BCB: data/extraction/bcb_data_core_cpi_bcb.csv
+2024-10-11 13:15:12,662 - INFO - Arquivo BCB tratado salvo com sucesso: data/treatment\bcb_data_core_cpi_bcb.csv
+2024-10-11 13:15:12,662 - INFO - Processando arquivo: data/extraction/bcb_data_fx_buy_bcb.csv
+2024-10-11 13:15:12,662 - INFO - Processando arquivo BCB: data/extraction/bcb_data_fx_buy_bcb.csv
+2024-10-11 13:15:12,738 - INFO - Arquivo BCB tratado salvo com sucesso: data/treatment\bcb_data_fx_buy_bcb.csv
+2024-10-11 13:15:12,743 - INFO - Processando arquivo: data/extraction/bcb_data_fx_sell_bcb.csv
+2024-10-11 13:15:12,743 - INFO - Processando arquivo BCB: data/extraction/bcb_data_fx_sell_bcb.csv
+2024-10-11 13:15:12,800 - INFO - Arquivo BCB tratado salvo com sucesso: data/treatment\bcb_data_fx_sell_bcb.csv
+2024-10-11 13:15:12,801 - INFO - Processando arquivo: data/extraction/bcb_data_gdp_bcb.csv
+2024-10-11 13:15:12,801 - INFO - Processando arquivo BCB: data/extraction/bcb_data_gdp_bcb.csv
+2024-10-11 13:15:12,854 - INFO - Arquivo BCB tratado salvo com sucesso: data/treatment\bcb_data_gdp_bcb.csv
+2024-10-11 13:15:12,854 - INFO - Processando arquivo: data/extraction/bcb_data_ipca_bcb.csv
+2024-10-11 13:15:12,854 - INFO - Processando arquivo BCB: data/extraction/bcb_data_ipca_bcb.csv
+2024-10-11 13:15:12,909 - INFO - Arquivo BCB tratado salvo com sucesso: data/treatment\bcb_data_ipca_bcb.csv
+2024-10-11 13:15:12,909 - INFO - Processando arquivo: data/extraction/bcb_data_selic_bcb.csv
+2024-10-11 13:15:12,909 - INFO - Processando arquivo BCB: data/extraction/bcb_data_selic_bcb.csv
+2024-10-11 13:15:12,960 - INFO - Arquivo BCB tratado salvo com sucesso: data/treatment\bcb_data_selic_bcb.csv
+2024-10-11 13:15:12,960 - INFO - Processando arquivo: data/extraction/bcb_data_unemployment_bcb.csv
+2024-10-11 13:15:12,960 - INFO - Processando arquivo BCB: data/extraction/bcb_data_unemployment_bcb.csv
+2024-10-11 13:15:12,979 - INFO - Arquivo BCB tratado salvo com sucesso: data/treatment\bcb_data_unemployment_bcb.csv
+2024-10-11 13:15:12,985 - INFO - Processando arquivo: data/extraction/ipeadata_pib_series.csv
+2024-10-11 13:15:12,986 - INFO - Processando arquivo Ipeadata: data/extraction/ipeadata_pib_series.csv
+2024-10-11 13:15:12,989 - INFO - Arquivo CSV carregado com sucesso: data/extraction/ipeadata_pib_series.csv
+2024-10-11 13:15:13,072 - INFO - Arquivo tratado salvo com sucesso: data/treatment\ipeadata_pib_series.csv
+2024-10-11 13:15:13,086 - INFO - Processando arquivo: data/extraction/yahoo_finance_BRL=X.csv
+2024-10-11 13:15:13,086 - INFO - Processando arquivo Yahoo Finance: data/extraction/yahoo_finance_BRL=X.csv
+2024-10-11 13:15:13,127 - INFO - Arquivo Yahoo Finance tratado salvo com sucesso: data/treatment\yahoo_finance_BRL=X.csv
+2024-10-11 13:15:13,127 - INFO - Processando arquivo: data/extraction/yahoo_finance_CL=F.csv
+2024-10-11 13:15:13,127 - INFO - Processando arquivo Yahoo Finance: data/extraction/yahoo_finance_CL=F.csv
+2024-10-11 13:15:13,171 - INFO - Arquivo Yahoo Finance tratado salvo com sucesso: data/treatment\yahoo_finance_CL=F.csv
+2024-10-11 13:15:13,171 - INFO - Processando arquivo: data/extraction/yahoo_finance_CPI.csv
+2024-10-11 13:15:13,171 - INFO - Processando arquivo Yahoo Finance: data/extraction/yahoo_finance_CPI.csv
+2024-10-11 13:15:13,204 - INFO - Arquivo Yahoo Finance tratado salvo com sucesso: data/treatment\yahoo_finance_CPI.csv
+2024-10-11 13:15:13,204 - INFO - Processando arquivo: data/extraction/yahoo_finance_GC=F.csv
+2024-10-11 13:15:13,204 - INFO - Processando arquivo Yahoo Finance: data/extraction/yahoo_finance_GC=F.csv
+2024-10-11 13:15:13,253 - INFO - Arquivo Yahoo Finance tratado salvo com sucesso: data/treatment\yahoo_finance_GC=F.csv
+2024-10-11 13:15:13,254 - INFO - Processando arquivo: data/extraction/yahoo_finance_HG=F.csv
+2024-10-11 13:15:13,255 - INFO - Processando arquivo Yahoo Finance: data/extraction/yahoo_finance_HG=F.csv
+2024-10-11 13:15:13,303 - INFO - Arquivo Yahoo Finance tratado salvo com sucesso: data/treatment\yahoo_finance_HG=F.csv
+2024-10-11 13:15:13,304 - INFO - Processando arquivo: data/extraction/yahoo_finance_KC=F.csv
+2024-10-11 13:15:13,304 - INFO - Processando arquivo Yahoo Finance: data/extraction/yahoo_finance_KC=F.csv
+2024-10-11 13:15:13,354 - INFO - Arquivo Yahoo Finance tratado salvo com sucesso: data/treatment\yahoo_finance_KC=F.csv
+2024-10-11 13:15:13,359 - INFO - Processando arquivo: data/extraction/yahoo_finance_NG=F.csv
+2024-10-11 13:15:13,359 - INFO - Processando arquivo Yahoo Finance: data/extraction/yahoo_finance_NG=F.csv
+2024-10-11 13:15:13,416 - INFO - Arquivo Yahoo Finance tratado salvo com sucesso: data/treatment\yahoo_finance_NG=F.csv
+2024-10-11 13:15:13,417 - INFO - Processando arquivo: data/extraction/yahoo_finance_ZC=F.csv
+2024-10-11 13:15:13,417 - INFO - Processando arquivo Yahoo Finance: data/extraction/yahoo_finance_ZC=F.csv
+2024-10-11 13:15:13,457 - INFO - Arquivo Yahoo Finance tratado salvo com sucesso: data/treatment\yahoo_finance_ZC=F.csv
+2024-10-11 13:15:13,457 - INFO - Processando arquivo: data/extraction/yahoo_finance_ZS=F.csv
+2024-10-11 13:15:13,457 - INFO - Processando arquivo Yahoo Finance: data/extraction/yahoo_finance_ZS=F.csv
+2024-10-11 13:15:13,508 - INFO - Arquivo Yahoo Finance tratado salvo com sucesso: data/treatment\yahoo_finance_ZS=F.csv
+2024-10-11 13:15:13,508 - INFO - Processando arquivo: data/extraction/yahoo_finance_ZW=F.csv
+2024-10-11 13:15:13,508 - INFO - Processando arquivo Yahoo Finance: data/extraction/yahoo_finance_ZW=F.csv
+2024-10-11 13:15:13,543 - INFO - Arquivo Yahoo Finance tratado salvo com sucesso: data/treatment\yahoo_finance_ZW=F.csv
+2024-10-11 13:15:13,552 - INFO - Processando arquivo: data/extraction/yahoo_finance_^BVSP.csv
+2024-10-11 13:15:13,552 - INFO - Processando arquivo Yahoo Finance: data/extraction/yahoo_finance_^BVSP.csv
+2024-10-11 13:15:13,592 - INFO - Arquivo Yahoo Finance tratado salvo com sucesso: data/treatment\yahoo_finance_^BVSP.csv
+2024-10-11 13:15:13,592 - INFO - Processando arquivo: data/extraction/yahoo_finance_^GSPC.csv
+2024-10-11 13:15:13,592 - INFO - Processando arquivo Yahoo Finance: data/extraction/yahoo_finance_^GSPC.csv
+2024-10-11 13:15:13,654 - INFO - Arquivo Yahoo Finance tratado salvo com sucesso: data/treatment\yahoo_finance_^GSPC.csv
+2024-10-11 13:15:13,654 - INFO - Processando arquivo: data/extraction/yahoo_finance_^TNX.csv
+2024-10-11 13:15:13,654 - INFO - Processando arquivo Yahoo Finance: data/extraction/yahoo_finance_^TNX.csv
+2024-10-11 13:15:13,709 - INFO - Arquivo Yahoo Finance tratado salvo com sucesso: data/treatment\yahoo_finance_^TNX.csv
+2024-10-11 13:15:13,710 - INFO - Processo de tratamento de arquivos concluído.
+2024-10-11 13:15:13,710 - INFO - Aplicacao rodou com Sucesso.

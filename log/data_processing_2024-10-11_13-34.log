@@ -1,0 +1,9 @@
+2024-10-11 13:34:11,477 - INFO - Logging configurado para: data_processing.
+2024-10-11 13:34:11,479 - INFO - Comecando Aplicacao ...
+2024-10-11 13:34:11,479 - INFO - Iniciando a execução dos modelos preditivos...
+2024-10-11 13:34:11,479 - INFO - Processando arquivo: data/treatment\bcb_data_cambio_bcb.csv
+2024-10-11 13:34:11,479 - INFO - Arquivo CSV carregado: bcb_data_cambio_bcb.csv
+2024-10-11 13:34:11,479 - INFO - Adicione seu tratamento de dados aqui.
+2024-10-11 13:34:11,494 - INFO - Divisão dos dados concluída para o arquivo: bcb_data_cambio_bcb.csv
+2024-10-11 13:34:11,499 - ERROR - Erro ao rodar o modelo preditivo: could not convert string to float: '2021-05-02'
+2024-10-11 13:34:11,501 - ERROR - Aplicacao falhou com Erro: could not convert string to float: '2021-05-02'

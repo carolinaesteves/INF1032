@@ -1,0 +1,19 @@
+2024-10-11 13:13:21,399 - INFO - Logging configurado para: data_processing.
+2024-10-11 13:13:21,399 - INFO - Comecando Aplicacao ...
+2024-10-11 13:13:21,400 - INFO - Iniciando o processo de extração de dados...
+2024-10-11 13:13:21,900 - ERROR - Erro ao processar dados do BCB para selic_bcb: create_directory_if_not_exists() missing 1 required positional argument: 'logger'
+2024-10-11 13:13:22,497 - ERROR - Erro ao processar dados do BCB para ipca_bcb: create_directory_if_not_exists() missing 1 required positional argument: 'logger'
+2024-10-11 13:13:22,842 - ERROR - Erro ao processar dados do BCB para cambio_bcb: create_directory_if_not_exists() missing 1 required positional argument: 'logger'
+2024-10-11 13:13:23,220 - ERROR - Erro ao processar dados do BCB para fx_buy_bcb: create_directory_if_not_exists() missing 1 required positional argument: 'logger'
+2024-10-11 13:13:23,551 - ERROR - Erro ao processar dados do BCB para fx_sell_bcb: create_directory_if_not_exists() missing 1 required positional argument: 'logger'
+2024-10-11 13:13:24,281 - ERROR - Erro ao processar dados do BCB para gdp_bcb: create_directory_if_not_exists() missing 1 required positional argument: 'logger'
+2024-10-11 13:13:26,880 - ERROR - Erro ao processar dados do BCB para core_cpi_bcb: create_directory_if_not_exists() missing 1 required positional argument: 'logger'
+2024-10-11 13:13:27,521 - ERROR - Erro ao processar dados do BCB para commodities_bcb_composto_em_real: create_directory_if_not_exists() missing 1 required positional argument: 'logger'
+2024-10-11 13:13:28,269 - ERROR - Erro ao processar dados do BCB para commodities_bcb_agropecuaria_em_real: create_directory_if_not_exists() missing 1 required positional argument: 'logger'
+2024-10-11 13:13:29,610 - ERROR - Erro ao processar dados do BCB para commodities_bcb_metal_em_real: ';' expected after '"'
+2024-10-11 13:13:29,731 - ERROR - Erro ao processar dados do BCB para commodities_bcb_energia_em_real: create_directory_if_not_exists() missing 1 required positional argument: 'logger'
+2024-10-11 13:13:30,017 - ERROR - Erro ao processar dados do BCB para unemployment_bcb: create_directory_if_not_exists() missing 1 required positional argument: 'logger'
+2024-10-11 13:13:30,116 - ERROR - Erro ao processar dados do Ipeadata para pib_series: create_directory_if_not_exists() missing 1 required positional argument: 'logger'
+2024-10-11 13:13:31,536 - ERROR - Erro ao processar dados do Yahoo Finance para ^BVSP: create_directory_if_not_exists() missing 1 required positional argument: 'logger'
+2024-10-11 13:13:32,635 - ERROR - Erro ao processar dados do Yahoo Finance para BRL=X: create_directory_if_not_exists() missing 1 required positional argument: 'logger'
+2024-10-11 13:13:33,200 - ERROR - Erro ao processar dados do Yahoo Finance para CL=F: create_directory_if_not_exists() missing 1 required positional argument: 'logger'

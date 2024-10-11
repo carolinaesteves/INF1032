@@ -1,0 +1,57 @@
+2024-10-11 13:41:11,623 - INFO - Logging configurado para: data_processing.
+2024-10-11 13:41:11,623 - INFO - Comecando Aplicacao ...
+2024-10-11 13:41:11,623 - INFO - Iniciando a execução dos modelos preditivos...
+2024-10-11 13:41:11,630 - INFO - Processando arquivo: data/treatment\bcb_data_cambio_bcb.csv
+2024-10-11 13:41:11,725 - INFO - MSE para o arquivo bcb_data_cambio_bcb.csv: 17.49348973954685
+2024-10-11 13:41:11,725 - INFO - Processando arquivo: data/treatment\bcb_data_commodities_bcb_agropecuaria_em_real.csv
+2024-10-11 13:41:11,774 - INFO - MSE para o arquivo bcb_data_commodities_bcb_agropecuaria_em_real.csv: 2674.695607633949
+2024-10-11 13:41:11,774 - INFO - Processando arquivo: data/treatment\bcb_data_commodities_bcb_composto_em_real.csv
+2024-10-11 13:41:11,815 - INFO - MSE para o arquivo bcb_data_commodities_bcb_composto_em_real.csv: 2646.966260689463
+2024-10-11 13:41:11,815 - INFO - Processando arquivo: data/treatment\bcb_data_commodities_bcb_energia_em_real.csv
+2024-10-11 13:41:11,861 - INFO - MSE para o arquivo bcb_data_commodities_bcb_energia_em_real.csv: 1569.2579482131982
+2024-10-11 13:41:11,861 - INFO - Processando arquivo: data/treatment\bcb_data_commodities_bcb_metal_em_real.csv
+2024-10-11 13:41:11,912 - INFO - MSE para o arquivo bcb_data_commodities_bcb_metal_em_real.csv: 3998.696542365469
+2024-10-11 13:41:11,912 - INFO - Processando arquivo: data/treatment\bcb_data_core_cpi_bcb.csv
+2024-10-11 13:41:11,954 - INFO - MSE para o arquivo bcb_data_core_cpi_bcb.csv: 0.07161493896004716
+2024-10-11 13:41:11,955 - INFO - Processando arquivo: data/treatment\bcb_data_fx_buy_bcb.csv
+2024-10-11 13:41:12,007 - INFO - MSE para o arquivo bcb_data_fx_buy_bcb.csv: 16160718.832309557
+2024-10-11 13:41:12,007 - INFO - Processando arquivo: data/treatment\bcb_data_fx_sell_bcb.csv
+2024-10-11 13:41:12,071 - INFO - MSE para o arquivo bcb_data_fx_sell_bcb.csv: 16173057.873555219
+2024-10-11 13:41:12,073 - INFO - Processando arquivo: data/treatment\bcb_data_gdp_bcb.csv
+2024-10-11 13:41:12,196 - INFO - MSE para o arquivo bcb_data_gdp_bcb.csv: 2.2374056769516808e+24
+2024-10-11 13:41:12,197 - INFO - Processando arquivo: data/treatment\bcb_data_ipca_bcb.csv
+2024-10-11 13:41:12,242 - INFO - MSE para o arquivo bcb_data_ipca_bcb.csv: 91.01117745689932
+2024-10-11 13:41:12,242 - INFO - Processando arquivo: data/treatment\bcb_data_selic_bcb.csv
+2024-10-11 13:41:12,288 - INFO - MSE para o arquivo bcb_data_selic_bcb.csv: 17.49348973954685
+2024-10-11 13:41:12,289 - INFO - Processando arquivo: data/treatment\bcb_data_unemployment_bcb.csv
+2024-10-11 13:41:12,312 - INFO - MSE para o arquivo bcb_data_unemployment_bcb.csv: 5.922532803189216
+2024-10-11 13:41:12,312 - INFO - Processando arquivo: data/treatment\ipeadata_pib_series.csv
+2024-10-11 13:41:12,342 - INFO - MSE para o arquivo ipeadata_pib_series.csv: 8.666951673001986
+2024-10-11 13:41:12,342 - INFO - Processando arquivo: data/treatment\yahoo_finance_BRL=X.csv
+2024-10-11 13:41:12,379 - INFO - MSE para o arquivo yahoo_finance_BRL=X.csv: 0.5602533119563963
+2024-10-11 13:41:12,379 - INFO - Processando arquivo: data/treatment\yahoo_finance_CL=F.csv
+2024-10-11 13:41:12,422 - INFO - MSE para o arquivo yahoo_finance_CL=F.csv: 572.5701549150973
+2024-10-11 13:41:12,423 - INFO - Processando arquivo: data/treatment\yahoo_finance_CPI.csv
+2024-10-11 13:41:12,450 - INFO - MSE para o arquivo yahoo_finance_CPI.csv: 2.453584349007589
+2024-10-11 13:41:12,450 - INFO - Processando arquivo: data/treatment\yahoo_finance_GC=F.csv
+2024-10-11 13:41:12,489 - INFO - MSE para o arquivo yahoo_finance_GC=F.csv: 49386.881607479765
+2024-10-11 13:41:12,489 - INFO - Processando arquivo: data/treatment\yahoo_finance_HG=F.csv
+2024-10-11 13:41:12,556 - INFO - MSE para o arquivo yahoo_finance_HG=F.csv: 0.650064467336079
+2024-10-11 13:41:12,560 - INFO - Processando arquivo: data/treatment\yahoo_finance_KC=F.csv
+2024-10-11 13:41:12,642 - INFO - MSE para o arquivo yahoo_finance_KC=F.csv: 1755.1224222705846
+2024-10-11 13:41:12,643 - INFO - Processando arquivo: data/treatment\yahoo_finance_NG=F.csv
+2024-10-11 13:41:12,678 - INFO - MSE para o arquivo yahoo_finance_NG=F.csv: 3.6634441167625345
+2024-10-11 13:41:12,678 - INFO - Processando arquivo: data/treatment\yahoo_finance_ZC=F.csv
+2024-10-11 13:41:12,722 - INFO - MSE para o arquivo yahoo_finance_ZC=F.csv: 17973.05394015291
+2024-10-11 13:41:12,723 - INFO - Processando arquivo: data/treatment\yahoo_finance_ZS=F.csv
+2024-10-11 13:41:12,761 - INFO - MSE para o arquivo yahoo_finance_ZS=F.csv: 64050.0710731556
+2024-10-11 13:41:12,761 - INFO - Processando arquivo: data/treatment\yahoo_finance_ZW=F.csv
+2024-10-11 13:41:12,806 - INFO - MSE para o arquivo yahoo_finance_ZW=F.csv: 23400.831026996708
+2024-10-11 13:41:12,806 - INFO - Processando arquivo: data/treatment\yahoo_finance_^BVSP.csv
+2024-10-11 13:41:12,858 - INFO - MSE para o arquivo yahoo_finance_^BVSP.csv: 169000817.75919414
+2024-10-11 13:41:12,859 - INFO - Processando arquivo: data/treatment\yahoo_finance_^GSPC.csv
+2024-10-11 13:41:12,907 - INFO - MSE para o arquivo yahoo_finance_^GSPC.csv: 292068.8953692178
+2024-10-11 13:41:12,907 - INFO - Processando arquivo: data/treatment\yahoo_finance_^TNX.csv
+2024-10-11 13:41:12,945 - INFO - MSE para o arquivo yahoo_finance_^TNX.csv: 0.7952678567719678
+2024-10-11 13:41:12,945 - INFO - Execução dos modelos preditivos concluída.
+2024-10-11 13:41:12,945 - INFO - Aplicacao rodou com Sucesso.
