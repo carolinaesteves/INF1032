@@ -32,3 +32,5 @@ CSV_SAVE_PATHS = {
 }
 
 EXTRACTION_CSV_FOLDER_PATHS = "data/extraction/"
+TREATMENT_CSV_FOLDER_PATHS = "data/treatment"
+LOG_FOLDER_PATH = "log/"

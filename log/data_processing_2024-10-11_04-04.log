@@ -1,0 +1,61 @@
+2024-10-11 04:04:53,220 - INFO - Logging configurado para: data_processing.
+2024-10-11 04:04:53,220 - INFO - Comecando Aplicacao ...
+2024-10-11 04:04:53,220 - INFO - Iniciando o processo de extracao de dados...
+2024-10-11 04:05:02,243 - INFO - Dados do BCB para selic_bcb salvos em 'data/extraction/bcb_data_selic_bcb.csv'
+2024-10-11 04:05:05,661 - INFO - Dados do BCB para ipca_bcb salvos em 'data/extraction/bcb_data_ipca_bcb.csv'
+2024-10-11 04:05:12,114 - INFO - Dados do BCB para cambio_bcb salvos em 'data/extraction/bcb_data_cambio_bcb.csv'
+2024-10-11 04:05:32,396 - INFO - Dados do BCB para fx_buy_bcb salvos em 'data/extraction/bcb_data_fx_buy_bcb.csv'
+2024-10-11 04:05:43,507 - INFO - Dados do BCB para fx_sell_bcb salvos em 'data/extraction/bcb_data_fx_sell_bcb.csv'
+2024-10-11 04:05:43,859 - INFO - Dados do BCB para gdp_bcb salvos em 'data/extraction/bcb_data_gdp_bcb.csv'
+2024-10-11 04:05:44,403 - INFO - Dados do BCB para core_cpi_bcb salvos em 'data/extraction/bcb_data_core_cpi_bcb.csv'
+2024-10-11 04:05:44,885 - INFO - Dados do BCB para commodities_bcb_a salvos em 'data/extraction/bcb_data_commodities_bcb_a.csv'
+2024-10-11 04:05:45,335 - INFO - Dados do BCB para commodities_bcb_b salvos em 'data/extraction/bcb_data_commodities_bcb_b.csv'
+2024-10-11 04:05:45,840 - INFO - Dados do BCB para commodities_bcb_c salvos em 'data/extraction/bcb_data_commodities_bcb_c.csv'
+2024-10-11 04:05:46,320 - INFO - Dados do BCB para commodities_bcb_d salvos em 'data/extraction/bcb_data_commodities_bcb_d.csv'
+2024-10-11 04:05:46,707 - INFO - Dados do BCB para unemployment_bcb salvos em 'data/extraction/bcb_data_unemployment_bcb.csv'
+2024-10-11 04:05:46,928 - INFO - Dados do Ipeadata para pib_series salvos em 'data/extraction/ipeadata_pib_series.csv'
+2024-10-11 04:05:46,929 - INFO - Processo de extracao de dados concluido.
+2024-10-11 04:05:46,929 - INFO - Iniciando o processo de tratamento de arquivos...
+2024-10-11 04:05:46,929 - INFO - Processando arquivo: data/extraction/bcb_data_cambio_bcb.csv
+2024-10-11 04:05:46,929 - INFO - Processando arquivo BCB: data/extraction/bcb_data_cambio_bcb.csv
+2024-10-11 04:05:46,999 - INFO - Arquivo BCB tratado salvo com sucesso: data/treatment\bcb_data_cambio_bcb.csv
+2024-10-11 04:05:47,000 - INFO - Processando arquivo: data/extraction/bcb_data_commodities_bcb_a.csv
+2024-10-11 04:05:47,000 - INFO - Processando arquivo BCB: data/extraction/bcb_data_commodities_bcb_a.csv
+2024-10-11 04:05:47,066 - INFO - Arquivo BCB tratado salvo com sucesso: data/treatment\bcb_data_commodities_bcb_a.csv
+2024-10-11 04:05:47,068 - INFO - Processando arquivo: data/extraction/bcb_data_commodities_bcb_b.csv
+2024-10-11 04:05:47,068 - INFO - Processando arquivo BCB: data/extraction/bcb_data_commodities_bcb_b.csv
+2024-10-11 04:05:47,120 - INFO - Arquivo BCB tratado salvo com sucesso: data/treatment\bcb_data_commodities_bcb_b.csv
+2024-10-11 04:05:47,120 - INFO - Processando arquivo: data/extraction/bcb_data_commodities_bcb_c.csv
+2024-10-11 04:05:47,120 - INFO - Processando arquivo BCB: data/extraction/bcb_data_commodities_bcb_c.csv
+2024-10-11 04:05:47,171 - INFO - Arquivo BCB tratado salvo com sucesso: data/treatment\bcb_data_commodities_bcb_c.csv
+2024-10-11 04:05:47,171 - INFO - Processando arquivo: data/extraction/bcb_data_commodities_bcb_d.csv
+2024-10-11 04:05:47,172 - INFO - Processando arquivo BCB: data/extraction/bcb_data_commodities_bcb_d.csv
+2024-10-11 04:05:47,225 - INFO - Arquivo BCB tratado salvo com sucesso: data/treatment\bcb_data_commodities_bcb_d.csv
+2024-10-11 04:05:47,226 - INFO - Processando arquivo: data/extraction/bcb_data_core_cpi_bcb.csv
+2024-10-11 04:05:47,226 - INFO - Processando arquivo BCB: data/extraction/bcb_data_core_cpi_bcb.csv
+2024-10-11 04:05:47,285 - INFO - Arquivo BCB tratado salvo com sucesso: data/treatment\bcb_data_core_cpi_bcb.csv
+2024-10-11 04:05:47,286 - INFO - Processando arquivo: data/extraction/bcb_data_fx_buy_bcb.csv
+2024-10-11 04:05:47,286 - INFO - Processando arquivo BCB: data/extraction/bcb_data_fx_buy_bcb.csv
+2024-10-11 04:05:47,371 - INFO - Arquivo BCB tratado salvo com sucesso: data/treatment\bcb_data_fx_buy_bcb.csv
+2024-10-11 04:05:47,372 - INFO - Processando arquivo: data/extraction/bcb_data_fx_sell_bcb.csv
+2024-10-11 04:05:47,372 - INFO - Processando arquivo BCB: data/extraction/bcb_data_fx_sell_bcb.csv
+2024-10-11 04:05:47,448 - INFO - Arquivo BCB tratado salvo com sucesso: data/treatment\bcb_data_fx_sell_bcb.csv
+2024-10-11 04:05:47,448 - INFO - Processando arquivo: data/extraction/bcb_data_gdp_bcb.csv
+2024-10-11 04:05:47,448 - INFO - Processando arquivo BCB: data/extraction/bcb_data_gdp_bcb.csv
+2024-10-11 04:05:47,525 - INFO - Arquivo BCB tratado salvo com sucesso: data/treatment\bcb_data_gdp_bcb.csv
+2024-10-11 04:05:47,527 - INFO - Processando arquivo: data/extraction/bcb_data_ipca_bcb.csv
+2024-10-11 04:05:47,527 - INFO - Processando arquivo BCB: data/extraction/bcb_data_ipca_bcb.csv
+2024-10-11 04:05:47,582 - INFO - Arquivo BCB tratado salvo com sucesso: data/treatment\bcb_data_ipca_bcb.csv
+2024-10-11 04:05:47,583 - INFO - Processando arquivo: data/extraction/bcb_data_selic_bcb.csv
+2024-10-11 04:05:47,583 - INFO - Processando arquivo BCB: data/extraction/bcb_data_selic_bcb.csv
+2024-10-11 04:05:47,623 - INFO - Arquivo BCB tratado salvo com sucesso: data/treatment\bcb_data_selic_bcb.csv
+2024-10-11 04:05:47,624 - INFO - Processando arquivo: data/extraction/bcb_data_unemployment_bcb.csv
+2024-10-11 04:05:47,624 - INFO - Processando arquivo BCB: data/extraction/bcb_data_unemployment_bcb.csv
+2024-10-11 04:05:47,650 - INFO - Arquivo BCB tratado salvo com sucesso: data/treatment\bcb_data_unemployment_bcb.csv
+2024-10-11 04:05:47,650 - INFO - Processando arquivo: data/extraction/ipeadata_pib_series.csv
+2024-10-11 04:05:47,650 - INFO - Processando arquivo Ipeadata: data/extraction/ipeadata_pib_series.csv
+2024-10-11 04:05:47,654 - INFO - Arquivo CSV carregado com sucesso: data/extraction/ipeadata_pib_series.csv
+2024-10-11 04:05:47,657 - INFO - Reindexando as datas para preencher lacunas com datas diárias.
+2024-10-11 04:05:47,731 - INFO - Arquivo tratado salvo com sucesso: data/treatment\ipeadata_pib_series.csv
+2024-10-11 04:05:47,731 - INFO - Processo de tratamento de arquivos concluído.
+2024-10-11 04:05:47,731 - INFO - Aplicacao rodou com Sucesso.
