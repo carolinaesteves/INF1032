@@ -14,7 +14,7 @@ def run_eda():
         cambio = pd.read_csv('data/treatment/bcb_data_cambio_bcb.csv')
         ipca = pd.read_csv('data/treatment/bcb_data_ipca_bcb.csv')
         pib = pd.read_csv('data/treatment/ipeadata_pib_series.csv')
-        print("EDA realizada com sucesso.")
+
         
         '''print(ibovespa.head())
         print(cambio.head())
@@ -43,9 +43,7 @@ def run_eda():
         cambio['data'] = pd.to_datetime(cambio['data'])
         ipca['data'] = pd.to_datetime(ipca['data'])
         pib['data'] = pd.to_datetime(pib['data'])
-        
-        print("EDA realizada com sucesso.")
-        
+                
         # Merge dos datasets nas mesmas datas
         merged_df = pd.merge(ibovespa, cambio, on='data', how='inner', suffixes=('_ibovespa', '_cambio'))
         merged_df = pd.merge(merged_df, ipca, on='data', how='inner')
@@ -80,6 +78,9 @@ def run_eda():
 
         # Salvar o gráfico como arquivo .png
         plt.savefig('comparacao_series_temporais_com_dois_eixos.png')
+        
+        print("EDA realizada com sucesso.")
+
 
     except Exception as e:
         logger.error(f"Erro durante eda: {str(e)}")
