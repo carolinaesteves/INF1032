@@ -1,0 +1,173 @@
+2024-10-19 23:51:54,908 - INFO - Logging configurado para: data_processing.
+2024-10-19 23:51:54,908 - INFO - Comecando Aplicacao ...
+2024-10-19 23:51:54,909 - INFO - Iniciando o processo de tratamento de arquivos...
+2024-10-19 23:51:54,909 - INFO - Processando arquivo: data/extraction/yahoo_finance_CPI.csv
+2024-10-19 23:51:54,909 - INFO - Processando arquivo Yahoo Finance: data/extraction/yahoo_finance_CPI.csv
+2024-10-19 23:51:54,967 - INFO - Arquivo Yahoo Finance tratado salvo com sucesso: data/treatment/yahoo_finance_CPI.csv
+2024-10-19 23:51:54,967 - INFO - Processando arquivo: data/extraction/bcb_data_unemployment_bcb.csv
+2024-10-19 23:51:54,967 - INFO - Processando arquivo BCB: data/extraction/bcb_data_unemployment_bcb.csv
+2024-10-19 23:51:55,005 - INFO - Arquivo BCB tratado salvo com sucesso: data/treatment/bcb_data_unemployment_bcb.csv
+2024-10-19 23:51:55,006 - INFO - Processando arquivo: data/extraction/yahoo_finance_^BVSP.csv
+2024-10-19 23:51:55,006 - INFO - Processando arquivo Yahoo Finance: data/extraction/yahoo_finance_^BVSP.csv
+2024-10-19 23:51:55,072 - INFO - Arquivo Yahoo Finance tratado salvo com sucesso: data/treatment/yahoo_finance_^BVSP.csv
+2024-10-19 23:51:55,073 - INFO - Processando arquivo: data/extraction/bcb_data_commodities_bcb_metal_em_real.csv
+2024-10-19 23:51:55,073 - INFO - Processando arquivo BCB: data/extraction/bcb_data_commodities_bcb_metal_em_real.csv
+2024-10-19 23:51:55,144 - INFO - Arquivo BCB tratado salvo com sucesso: data/treatment/bcb_data_commodities_bcb_metal_em_real.csv
+2024-10-19 23:51:55,144 - INFO - Processando arquivo: data/extraction/bcb_data_commodities_bcb_energia_em_real.csv
+2024-10-19 23:51:55,144 - INFO - Processando arquivo BCB: data/extraction/bcb_data_commodities_bcb_energia_em_real.csv
+2024-10-19 23:51:55,216 - INFO - Arquivo BCB tratado salvo com sucesso: data/treatment/bcb_data_commodities_bcb_energia_em_real.csv
+2024-10-19 23:51:55,216 - INFO - Processando arquivo: data/extraction/yahoo_finance_ZW=F.csv
+2024-10-19 23:51:55,216 - INFO - Processando arquivo Yahoo Finance: data/extraction/yahoo_finance_ZW=F.csv
+2024-10-19 23:51:55,275 - INFO - Arquivo Yahoo Finance tratado salvo com sucesso: data/treatment/yahoo_finance_ZW=F.csv
+2024-10-19 23:51:55,275 - INFO - Processando arquivo: data/extraction/bcb_data_core_cpi_bcb.csv
+2024-10-19 23:51:55,276 - INFO - Processando arquivo BCB: data/extraction/bcb_data_core_cpi_bcb.csv
+2024-10-19 23:51:55,351 - INFO - Arquivo BCB tratado salvo com sucesso: data/treatment/bcb_data_core_cpi_bcb.csv
+2024-10-19 23:51:55,351 - INFO - Processando arquivo: data/extraction/yahoo_finance_KC=F.csv
+2024-10-19 23:51:55,351 - INFO - Processando arquivo Yahoo Finance: data/extraction/yahoo_finance_KC=F.csv
+2024-10-19 23:51:55,418 - INFO - Arquivo Yahoo Finance tratado salvo com sucesso: data/treatment/yahoo_finance_KC=F.csv
+2024-10-19 23:51:55,419 - INFO - Processando arquivo: data/extraction/yahoo_finance_ZC=F.csv
+2024-10-19 23:51:55,419 - INFO - Processando arquivo Yahoo Finance: data/extraction/yahoo_finance_ZC=F.csv
+2024-10-19 23:51:55,483 - INFO - Arquivo Yahoo Finance tratado salvo com sucesso: data/treatment/yahoo_finance_ZC=F.csv
+2024-10-19 23:51:55,483 - INFO - Processando arquivo: data/extraction/yahoo_finance_GC=F.csv
+2024-10-19 23:51:55,483 - INFO - Processando arquivo Yahoo Finance: data/extraction/yahoo_finance_GC=F.csv
+2024-10-19 23:51:55,554 - INFO - Arquivo Yahoo Finance tratado salvo com sucesso: data/treatment/yahoo_finance_GC=F.csv
+2024-10-19 23:51:55,554 - INFO - Processando arquivo: data/extraction/bcb_data_commodities_bcb_agropecuaria_em_real.csv
+2024-10-19 23:51:55,554 - INFO - Processando arquivo BCB: data/extraction/bcb_data_commodities_bcb_agropecuaria_em_real.csv
+2024-10-19 23:51:55,631 - INFO - Arquivo BCB tratado salvo com sucesso: data/treatment/bcb_data_commodities_bcb_agropecuaria_em_real.csv
+2024-10-19 23:51:55,632 - INFO - Processando arquivo: data/extraction/yahoo_finance_^GSPC.csv
+2024-10-19 23:51:55,632 - INFO - Processando arquivo Yahoo Finance: data/extraction/yahoo_finance_^GSPC.csv
+2024-10-19 23:51:55,707 - INFO - Arquivo Yahoo Finance tratado salvo com sucesso: data/treatment/yahoo_finance_^GSPC.csv
+2024-10-19 23:51:55,707 - INFO - Processando arquivo: data/extraction/yahoo_finance_BRL=X.csv
+2024-10-19 23:51:55,707 - INFO - Processando arquivo Yahoo Finance: data/extraction/yahoo_finance_BRL=X.csv
+2024-10-19 23:51:55,776 - INFO - Arquivo Yahoo Finance tratado salvo com sucesso: data/treatment/yahoo_finance_BRL=X.csv
+2024-10-19 23:51:55,777 - INFO - Processando arquivo: data/extraction/yahoo_finance_^TNX.csv
+2024-10-19 23:51:55,777 - INFO - Processando arquivo Yahoo Finance: data/extraction/yahoo_finance_^TNX.csv
+2024-10-19 23:51:55,871 - INFO - Arquivo Yahoo Finance tratado salvo com sucesso: data/treatment/yahoo_finance_^TNX.csv
+2024-10-19 23:51:55,872 - INFO - Processando arquivo: data/extraction/yahoo_finance_HG=F.csv
+2024-10-19 23:51:55,872 - INFO - Processando arquivo Yahoo Finance: data/extraction/yahoo_finance_HG=F.csv
+2024-10-19 23:51:55,959 - INFO - Arquivo Yahoo Finance tratado salvo com sucesso: data/treatment/yahoo_finance_HG=F.csv
+2024-10-19 23:51:55,960 - INFO - Processando arquivo: data/extraction/ipeadata_pib_series.csv
+2024-10-19 23:51:55,960 - INFO - Processando arquivo Ipeadata: data/extraction/ipeadata_pib_series.csv
+2024-10-19 23:51:55,962 - INFO - Arquivo CSV carregado com sucesso: data/extraction/ipeadata_pib_series.csv
+2024-10-19 23:51:56,087 - INFO - Arquivo tratado salvo com sucesso: data/treatment/ipeadata_pib_series.csv
+2024-10-19 23:51:56,088 - INFO - Processando arquivo: data/extraction/yahoo_finance_ZS=F.csv
+2024-10-19 23:51:56,088 - INFO - Processando arquivo Yahoo Finance: data/extraction/yahoo_finance_ZS=F.csv
+2024-10-19 23:51:56,159 - INFO - Arquivo Yahoo Finance tratado salvo com sucesso: data/treatment/yahoo_finance_ZS=F.csv
+2024-10-19 23:51:56,159 - INFO - Processando arquivo: data/extraction/bcb_data_fx_sell_bcb.csv
+2024-10-19 23:51:56,159 - INFO - Processando arquivo BCB: data/extraction/bcb_data_fx_sell_bcb.csv
+2024-10-19 23:51:56,252 - INFO - Arquivo BCB tratado salvo com sucesso: data/treatment/bcb_data_fx_sell_bcb.csv
+2024-10-19 23:51:56,252 - INFO - Processando arquivo: data/extraction/yahoo_finance_NG=F.csv
+2024-10-19 23:51:56,252 - INFO - Processando arquivo Yahoo Finance: data/extraction/yahoo_finance_NG=F.csv
+2024-10-19 23:51:56,337 - INFO - Arquivo Yahoo Finance tratado salvo com sucesso: data/treatment/yahoo_finance_NG=F.csv
+2024-10-19 23:51:56,337 - INFO - Processando arquivo: data/extraction/bcb_data_fx_buy_bcb.csv
+2024-10-19 23:51:56,338 - INFO - Processando arquivo BCB: data/extraction/bcb_data_fx_buy_bcb.csv
+2024-10-19 23:51:56,436 - INFO - Arquivo BCB tratado salvo com sucesso: data/treatment/bcb_data_fx_buy_bcb.csv
+2024-10-19 23:51:56,437 - INFO - Processando arquivo: data/extraction/yahoo_finance_CL=F.csv
+2024-10-19 23:51:56,437 - INFO - Processando arquivo Yahoo Finance: data/extraction/yahoo_finance_CL=F.csv
+2024-10-19 23:51:56,502 - INFO - Arquivo Yahoo Finance tratado salvo com sucesso: data/treatment/yahoo_finance_CL=F.csv
+2024-10-19 23:51:56,503 - INFO - Processando arquivo: data/extraction/bcb_data_ipca_bcb.csv
+2024-10-19 23:51:56,503 - INFO - Processando arquivo BCB: data/extraction/bcb_data_ipca_bcb.csv
+2024-10-19 23:51:56,622 - INFO - Arquivo BCB tratado salvo com sucesso: data/treatment/bcb_data_ipca_bcb.csv
+2024-10-19 23:51:56,623 - INFO - Processando arquivo: data/extraction/bcb_data_gdp_bcb.csv
+2024-10-19 23:51:56,623 - INFO - Processando arquivo BCB: data/extraction/bcb_data_gdp_bcb.csv
+2024-10-19 23:51:56,739 - INFO - Arquivo BCB tratado salvo com sucesso: data/treatment/bcb_data_gdp_bcb.csv
+2024-10-19 23:51:56,740 - INFO - Processando arquivo: data/extraction/bcb_data_cambio_bcb.csv
+2024-10-19 23:51:56,740 - INFO - Processando arquivo BCB: data/extraction/bcb_data_cambio_bcb.csv
+2024-10-19 23:51:56,798 - INFO - Arquivo BCB tratado salvo com sucesso: data/treatment/bcb_data_cambio_bcb.csv
+2024-10-19 23:51:56,798 - INFO - Processando arquivo: data/extraction/bcb_data_commodities_bcb_composto_em_real.csv
+2024-10-19 23:51:56,798 - INFO - Processando arquivo BCB: data/extraction/bcb_data_commodities_bcb_composto_em_real.csv
+2024-10-19 23:51:56,869 - INFO - Arquivo BCB tratado salvo com sucesso: data/treatment/bcb_data_commodities_bcb_composto_em_real.csv
+2024-10-19 23:51:56,869 - INFO - Processando arquivo: data/extraction/bcb_data_selic_bcb.csv
+2024-10-19 23:51:56,869 - INFO - Processando arquivo BCB: data/extraction/bcb_data_selic_bcb.csv
+2024-10-19 23:51:56,928 - INFO - Arquivo BCB tratado salvo com sucesso: data/treatment/bcb_data_selic_bcb.csv
+2024-10-19 23:51:56,929 - INFO - Processo de tratamento de arquivos concluído.
+2024-10-19 23:51:56,929 - INFO - Iniciando a validação de todos os arquivos tratados...
+2024-10-19 23:51:56,929 - INFO - Validando arquivo tratado: data/treatment/yahoo_finance_CPI.csv
+2024-10-19 23:51:56,935 - INFO - Arquivo CSV carregado com sucesso.
+2024-10-19 23:51:56,942 - INFO - Validação concluída com sucesso para o arquivo: data/treatment/yahoo_finance_CPI.csv
+2024-10-19 23:51:56,942 - INFO - Validando arquivo tratado: data/treatment/bcb_data_unemployment_bcb.csv
+2024-10-19 23:51:56,952 - INFO - Arquivo CSV carregado com sucesso.
+2024-10-19 23:51:56,959 - INFO - Validação concluída com sucesso para o arquivo: data/treatment/bcb_data_unemployment_bcb.csv
+2024-10-19 23:51:56,960 - INFO - Validando arquivo tratado: data/treatment/yahoo_finance_^BVSP.csv
+2024-10-19 23:51:56,973 - INFO - Arquivo CSV carregado com sucesso.
+2024-10-19 23:51:56,984 - INFO - Validação concluída com sucesso para o arquivo: data/treatment/yahoo_finance_^BVSP.csv
+2024-10-19 23:51:56,985 - INFO - Validando arquivo tratado: data/treatment/bcb_data_commodities_bcb_metal_em_real.csv
+2024-10-19 23:51:57,003 - INFO - Arquivo CSV carregado com sucesso.
+2024-10-19 23:51:57,014 - INFO - Validação concluída com sucesso para o arquivo: data/treatment/bcb_data_commodities_bcb_metal_em_real.csv
+2024-10-19 23:51:57,015 - INFO - Validando arquivo tratado: data/treatment/bcb_data_commodities_bcb_energia_em_real.csv
+2024-10-19 23:51:57,031 - INFO - Arquivo CSV carregado com sucesso.
+2024-10-19 23:51:57,044 - INFO - Validação concluída com sucesso para o arquivo: data/treatment/bcb_data_commodities_bcb_energia_em_real.csv
+2024-10-19 23:51:57,044 - INFO - Validando arquivo tratado: data/treatment/yahoo_finance_ZW=F.csv
+2024-10-19 23:51:57,056 - INFO - Arquivo CSV carregado com sucesso.
+2024-10-19 23:51:57,064 - INFO - Validação concluída com sucesso para o arquivo: data/treatment/yahoo_finance_ZW=F.csv
+2024-10-19 23:51:57,065 - INFO - Validando arquivo tratado: data/treatment/bcb_data_core_cpi_bcb.csv
+2024-10-19 23:51:57,080 - INFO - Arquivo CSV carregado com sucesso.
+2024-10-19 23:51:57,094 - INFO - Validação concluída com sucesso para o arquivo: data/treatment/bcb_data_core_cpi_bcb.csv
+2024-10-19 23:51:57,094 - INFO - Validando arquivo tratado: data/treatment/yahoo_finance_KC=F.csv
+2024-10-19 23:51:57,108 - INFO - Arquivo CSV carregado com sucesso.
+2024-10-19 23:51:57,119 - INFO - Validação concluída com sucesso para o arquivo: data/treatment/yahoo_finance_KC=F.csv
+2024-10-19 23:51:57,120 - INFO - Validando arquivo tratado: data/treatment/yahoo_finance_ZC=F.csv
+2024-10-19 23:51:57,132 - INFO - Arquivo CSV carregado com sucesso.
+2024-10-19 23:51:57,144 - INFO - Validação concluída com sucesso para o arquivo: data/treatment/yahoo_finance_ZC=F.csv
+2024-10-19 23:51:57,145 - INFO - Validando arquivo tratado: data/treatment/yahoo_finance_GC=F.csv
+2024-10-19 23:51:57,161 - INFO - Arquivo CSV carregado com sucesso.
+2024-10-19 23:51:57,172 - INFO - Validação concluída com sucesso para o arquivo: data/treatment/yahoo_finance_GC=F.csv
+2024-10-19 23:51:57,173 - INFO - Validando arquivo tratado: data/treatment/bcb_data_commodities_bcb_agropecuaria_em_real.csv
+2024-10-19 23:51:57,191 - INFO - Arquivo CSV carregado com sucesso.
+2024-10-19 23:51:57,200 - INFO - Validação concluída com sucesso para o arquivo: data/treatment/bcb_data_commodities_bcb_agropecuaria_em_real.csv
+2024-10-19 23:51:57,202 - INFO - Validando arquivo tratado: data/treatment/yahoo_finance_^GSPC.csv
+2024-10-19 23:51:57,215 - INFO - Arquivo CSV carregado com sucesso.
+2024-10-19 23:51:57,228 - INFO - Validação concluída com sucesso para o arquivo: data/treatment/yahoo_finance_^GSPC.csv
+2024-10-19 23:51:57,228 - INFO - Validando arquivo tratado: data/treatment/yahoo_finance_BRL=X.csv
+2024-10-19 23:51:57,243 - INFO - Arquivo CSV carregado com sucesso.
+2024-10-19 23:51:57,254 - INFO - Validação concluída com sucesso para o arquivo: data/treatment/yahoo_finance_BRL=X.csv
+2024-10-19 23:51:57,254 - INFO - Validando arquivo tratado: data/treatment/yahoo_finance_^TNX.csv
+2024-10-19 23:51:57,267 - INFO - Arquivo CSV carregado com sucesso.
+2024-10-19 23:51:57,279 - INFO - Validação concluída com sucesso para o arquivo: data/treatment/yahoo_finance_^TNX.csv
+2024-10-19 23:51:57,280 - INFO - Validando arquivo tratado: data/treatment/yahoo_finance_HG=F.csv
+2024-10-19 23:51:57,294 - INFO - Arquivo CSV carregado com sucesso.
+2024-10-19 23:51:57,305 - INFO - Validação concluída com sucesso para o arquivo: data/treatment/yahoo_finance_HG=F.csv
+2024-10-19 23:51:57,305 - INFO - Validando arquivo tratado: data/treatment/ipeadata_pib_series.csv
+2024-10-19 23:51:57,321 - INFO - Arquivo CSV carregado com sucesso.
+2024-10-19 23:51:57,331 - INFO - Validação concluída com sucesso para o arquivo: data/treatment/ipeadata_pib_series.csv
+2024-10-19 23:51:57,332 - INFO - Validando arquivo tratado: data/treatment/yahoo_finance_ZS=F.csv
+2024-10-19 23:51:57,345 - INFO - Arquivo CSV carregado com sucesso.
+2024-10-19 23:51:57,355 - INFO - Validação concluída com sucesso para o arquivo: data/treatment/yahoo_finance_ZS=F.csv
+2024-10-19 23:51:57,356 - INFO - Validando arquivo tratado: data/treatment/bcb_data_fx_sell_bcb.csv
+2024-10-19 23:51:57,377 - INFO - Arquivo CSV carregado com sucesso.
+2024-10-19 23:51:57,392 - INFO - Validação concluída com sucesso para o arquivo: data/treatment/bcb_data_fx_sell_bcb.csv
+2024-10-19 23:51:57,393 - INFO - Validando arquivo tratado: data/treatment/yahoo_finance_NG=F.csv
+2024-10-19 23:51:57,408 - INFO - Arquivo CSV carregado com sucesso.
+2024-10-19 23:51:57,417 - INFO - Validação concluída com sucesso para o arquivo: data/treatment/yahoo_finance_NG=F.csv
+2024-10-19 23:51:57,418 - INFO - Validando arquivo tratado: data/treatment/bcb_data_fx_buy_bcb.csv
+2024-10-19 23:51:57,439 - INFO - Arquivo CSV carregado com sucesso.
+2024-10-19 23:51:57,453 - INFO - Validação concluída com sucesso para o arquivo: data/treatment/bcb_data_fx_buy_bcb.csv
+2024-10-19 23:51:57,454 - INFO - Validando arquivo tratado: data/treatment/yahoo_finance_CL=F.csv
+2024-10-19 23:51:57,468 - INFO - Arquivo CSV carregado com sucesso.
+2024-10-19 23:51:57,481 - INFO - Validação concluída com sucesso para o arquivo: data/treatment/yahoo_finance_CL=F.csv
+2024-10-19 23:51:57,482 - INFO - Validando arquivo tratado: data/treatment/bcb_data_ipca_bcb.csv
+2024-10-19 23:51:57,508 - INFO - Arquivo CSV carregado com sucesso.
+2024-10-19 23:51:57,529 - INFO - Validação concluída com sucesso para o arquivo: data/treatment/bcb_data_ipca_bcb.csv
+2024-10-19 23:51:57,530 - INFO - Validando arquivo tratado: data/treatment/bcb_data_gdp_bcb.csv
+2024-10-19 23:51:57,567 - INFO - Arquivo CSV carregado com sucesso.
+2024-10-19 23:51:57,595 - INFO - Validação concluída com sucesso para o arquivo: data/treatment/bcb_data_gdp_bcb.csv
+2024-10-19 23:51:57,597 - INFO - Validando arquivo tratado: data/treatment/bcb_data_cambio_bcb.csv
+2024-10-19 23:51:57,614 - INFO - Arquivo CSV carregado com sucesso.
+2024-10-19 23:51:57,627 - INFO - Validação concluída com sucesso para o arquivo: data/treatment/bcb_data_cambio_bcb.csv
+2024-10-19 23:51:57,628 - INFO - Validando arquivo tratado: data/treatment/bcb_data_commodities_bcb_composto_em_real.csv
+2024-10-19 23:51:57,646 - INFO - Arquivo CSV carregado com sucesso.
+2024-10-19 23:51:57,659 - INFO - Validação concluída com sucesso para o arquivo: data/treatment/bcb_data_commodities_bcb_composto_em_real.csv
+2024-10-19 23:51:57,659 - INFO - Validando arquivo tratado: data/treatment/bcb_data_selic_bcb.csv
+2024-10-19 23:51:57,673 - INFO - Arquivo CSV carregado com sucesso.
+2024-10-19 23:51:57,682 - INFO - Validação concluída com sucesso para o arquivo: data/treatment/bcb_data_selic_bcb.csv
+2024-10-19 23:51:57,683 - INFO - Validação concluída para todos os arquivos tratados.
+2024-10-19 23:51:57,683 - INFO - Iniciando analise exploratoria de dados
+2024-10-19 23:51:58,213 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2024-10-19 23:51:58,586 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2024-10-19 23:51:59,001 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2024-10-19 23:51:59,364 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2024-10-19 23:51:59,737 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2024-10-19 23:52:00,116 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2024-10-19 23:52:00,517 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2024-10-19 23:52:00,892 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2024-10-19 23:52:00,899 - INFO - Aplicacao rodou com Sucesso.
