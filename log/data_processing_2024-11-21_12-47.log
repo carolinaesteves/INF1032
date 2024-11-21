@@ -1,0 +1,81 @@
+2024-11-21 12:47:52,678 - INFO - Logging configurado para: data_processing.
+2024-11-21 12:47:52,678 - INFO - Iniciando o processamento e a unificação dos dados...
+2024-11-21 12:47:52,678 - INFO - Processando arquivo: data/treatment\bcb_data_cambio_bcb.csv
+2024-11-21 12:47:52,696 - INFO - Nomes das colunas encontrados no arquivo: ['data', 'valor', 'series']
+2024-11-21 12:47:52,697 - INFO - Todas as colunas necessárias estão presentes.
+2024-11-21 12:47:52,701 - INFO - Processando arquivo: data/treatment\bcb_data_commodities_bcb_agropecuaria_em_real.csv
+2024-11-21 12:47:52,713 - INFO - Nomes das colunas encontrados no arquivo: ['data', 'valor', 'series']
+2024-11-21 12:47:52,714 - INFO - Todas as colunas necessárias estão presentes.
+2024-11-21 12:47:52,716 - INFO - Processando arquivo: data/treatment\bcb_data_commodities_bcb_composto_em_real.csv
+2024-11-21 12:47:52,728 - INFO - Nomes das colunas encontrados no arquivo: ['data', 'valor', 'series']
+2024-11-21 12:47:52,729 - INFO - Todas as colunas necessárias estão presentes.
+2024-11-21 12:47:52,734 - INFO - Processando arquivo: data/treatment\bcb_data_commodities_bcb_energia_em_real.csv
+2024-11-21 12:47:52,745 - INFO - Nomes das colunas encontrados no arquivo: ['data', 'valor', 'series']
+2024-11-21 12:47:52,746 - INFO - Todas as colunas necessárias estão presentes.
+2024-11-21 12:47:52,754 - INFO - Processando arquivo: data/treatment\bcb_data_commodities_bcb_metal_em_real.csv
+2024-11-21 12:47:52,763 - INFO - Nomes das colunas encontrados no arquivo: ['data', 'valor', 'series']
+2024-11-21 12:47:52,764 - INFO - Todas as colunas necessárias estão presentes.
+2024-11-21 12:47:52,770 - INFO - Processando arquivo: data/treatment\bcb_data_core_cpi_bcb.csv
+2024-11-21 12:47:52,778 - INFO - Nomes das colunas encontrados no arquivo: ['data', 'valor', 'series']
+2024-11-21 12:47:52,779 - INFO - Todas as colunas necessárias estão presentes.
+2024-11-21 12:47:52,783 - INFO - Processando arquivo: data/treatment\bcb_data_fx_buy_bcb.csv
+2024-11-21 12:47:52,791 - INFO - Nomes das colunas encontrados no arquivo: ['data', 'valor', 'series']
+2024-11-21 12:47:52,794 - INFO - Todas as colunas necessárias estão presentes.
+2024-11-21 12:47:52,797 - INFO - Processando arquivo: data/treatment\bcb_data_fx_sell_bcb.csv
+2024-11-21 12:47:52,807 - INFO - Nomes das colunas encontrados no arquivo: ['data', 'valor', 'series']
+2024-11-21 12:47:52,807 - INFO - Todas as colunas necessárias estão presentes.
+2024-11-21 12:47:52,813 - INFO - Processando arquivo: data/treatment\bcb_data_gdp_bcb.csv
+2024-11-21 12:47:52,830 - INFO - Nomes das colunas encontrados no arquivo: ['data', 'valor', 'series']
+2024-11-21 12:47:52,830 - INFO - Todas as colunas necessárias estão presentes.
+2024-11-21 12:47:52,830 - INFO - Processando arquivo: data/treatment\bcb_data_ipca_bcb.csv
+2024-11-21 12:47:52,846 - INFO - Nomes das colunas encontrados no arquivo: ['data', 'valor', 'series']
+2024-11-21 12:47:52,846 - INFO - Todas as colunas necessárias estão presentes.
+2024-11-21 12:47:52,857 - INFO - Processando arquivo: data/treatment\bcb_data_selic_bcb.csv
+2024-11-21 12:47:52,868 - INFO - Nomes das colunas encontrados no arquivo: ['data', 'valor', 'series']
+2024-11-21 12:47:52,869 - INFO - Todas as colunas necessárias estão presentes.
+2024-11-21 12:47:52,872 - INFO - Processando arquivo: data/treatment\bcb_data_unemployment_bcb.csv
+2024-11-21 12:47:52,878 - INFO - Nomes das colunas encontrados no arquivo: ['data', 'valor', 'series']
+2024-11-21 12:47:52,880 - INFO - Todas as colunas necessárias estão presentes.
+2024-11-21 12:47:52,880 - INFO - Processando arquivo: data/treatment\ipeadata_pib_series.csv
+2024-11-21 12:47:52,891 - INFO - Nomes das colunas encontrados no arquivo: ['data', 'valor', 'series']
+2024-11-21 12:47:52,891 - INFO - Todas as colunas necessárias estão presentes.
+2024-11-21 12:47:52,900 - INFO - Processando arquivo: data/treatment\yahoo_finance_BRL=X.csv
+2024-11-21 12:47:52,905 - INFO - Nomes das colunas encontrados no arquivo: ['data', 'valor', 'series']
+2024-11-21 12:47:52,907 - INFO - Todas as colunas necessárias estão presentes.
+2024-11-21 12:47:52,907 - INFO - Processando arquivo: data/treatment\yahoo_finance_CL=F.csv
+2024-11-21 12:47:52,913 - INFO - Nomes das colunas encontrados no arquivo: ['data', 'valor', 'series']
+2024-11-21 12:47:52,913 - INFO - Todas as colunas necessárias estão presentes.
+2024-11-21 12:47:52,924 - INFO - Processando arquivo: data/treatment\yahoo_finance_CPI.csv
+2024-11-21 12:47:52,930 - INFO - Nomes das colunas encontrados no arquivo: ['data', 'valor', 'series']
+2024-11-21 12:47:52,931 - INFO - Todas as colunas necessárias estão presentes.
+2024-11-21 12:47:52,936 - INFO - Processando arquivo: data/treatment\yahoo_finance_GC=F.csv
+2024-11-21 12:47:52,940 - INFO - Nomes das colunas encontrados no arquivo: ['data', 'valor', 'series']
+2024-11-21 12:47:52,940 - INFO - Todas as colunas necessárias estão presentes.
+2024-11-21 12:47:52,949 - INFO - Processando arquivo: data/treatment\yahoo_finance_HG=F.csv
+2024-11-21 12:47:52,956 - INFO - Nomes das colunas encontrados no arquivo: ['data', 'valor', 'series']
+2024-11-21 12:47:52,957 - INFO - Todas as colunas necessárias estão presentes.
+2024-11-21 12:47:52,961 - INFO - Processando arquivo: data/treatment\yahoo_finance_KC=F.csv
+2024-11-21 12:47:52,969 - INFO - Nomes das colunas encontrados no arquivo: ['data', 'valor', 'series']
+2024-11-21 12:47:52,969 - INFO - Todas as colunas necessárias estão presentes.
+2024-11-21 12:47:52,974 - INFO - Processando arquivo: data/treatment\yahoo_finance_NG=F.csv
+2024-11-21 12:47:52,983 - INFO - Nomes das colunas encontrados no arquivo: ['data', 'valor', 'series']
+2024-11-21 12:47:52,984 - INFO - Todas as colunas necessárias estão presentes.
+2024-11-21 12:47:52,988 - INFO - Processando arquivo: data/treatment\yahoo_finance_ZC=F.csv
+2024-11-21 12:47:52,995 - INFO - Nomes das colunas encontrados no arquivo: ['data', 'valor', 'series']
+2024-11-21 12:47:52,995 - INFO - Todas as colunas necessárias estão presentes.
+2024-11-21 12:47:53,000 - INFO - Processando arquivo: data/treatment\yahoo_finance_ZS=F.csv
+2024-11-21 12:47:53,007 - INFO - Nomes das colunas encontrados no arquivo: ['data', 'valor', 'series']
+2024-11-21 12:47:53,008 - INFO - Todas as colunas necessárias estão presentes.
+2024-11-21 12:47:53,012 - INFO - Processando arquivo: data/treatment\yahoo_finance_ZW=F.csv
+2024-11-21 12:47:53,016 - INFO - Nomes das colunas encontrados no arquivo: ['data', 'valor', 'series']
+2024-11-21 12:47:53,016 - INFO - Todas as colunas necessárias estão presentes.
+2024-11-21 12:47:53,025 - INFO - Processando arquivo: data/treatment\yahoo_finance_^BVSP.csv
+2024-11-21 12:47:53,029 - INFO - Nomes das colunas encontrados no arquivo: ['data', 'valor', 'series']
+2024-11-21 12:47:53,029 - INFO - Todas as colunas necessárias estão presentes.
+2024-11-21 12:47:53,029 - INFO - Processando arquivo: data/treatment\yahoo_finance_^GSPC.csv
+2024-11-21 12:47:53,045 - INFO - Nomes das colunas encontrados no arquivo: ['data', 'valor', 'series']
+2024-11-21 12:47:53,046 - INFO - Todas as colunas necessárias estão presentes.
+2024-11-21 12:47:53,051 - INFO - Processando arquivo: data/treatment\yahoo_finance_^TNX.csv
+2024-11-21 12:47:53,058 - INFO - Nomes das colunas encontrados no arquivo: ['data', 'valor', 'series']
+2024-11-21 12:47:53,058 - INFO - Todas as colunas necessárias estão presentes.
+2024-11-21 12:47:53,085 - ERROR - Erro durante o processamento: create_directory_if_not_exists() missing 1 required positional argument: 'logger'

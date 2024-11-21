@@ -4,6 +4,7 @@ from venv import logger
 import pandas as pd
 import matplotlib.pyplot as plt
 import logging
+from config import ANALYSIS_FOLDER_PATH
 
 def run_eda():
     try:
@@ -77,7 +78,7 @@ def run_eda():
         fig.legend(loc='upper left')
 
         # Salvar o gráfico como arquivo .png
-        plt.savefig('comparacao_series_temporais_com_dois_eixos.png')
+        plt.savefig(ANALYSIS_FOLDER_PATH+'comparacao_series_temporais_com_dois_eixos.png')
         
         print("EDA realizada com sucesso.")
 

@@ -54,10 +54,19 @@ CSV_SAVE_PATHS = {
 EXTRACTION_CSV_FOLDER_PATHS = "data/extraction/"
 TREATMENT_CSV_FOLDER_PATHS = "data/treatment"
 LOG_FOLDER_PATH = "log/"
+ANALYSIS_FOLDER_PATH = "analysis/"
+
 
 
 
 COLUMNS_CONFIG = {
     'features': ['valor'],  # Colunas usadas como features
     'target': 'valor'       # Coluna alvo para previsão
+}
+
+
+COLUMNS_DATASET = {
+    'data':'data',
+    'valor':'valor',
+    'series':'series'
 }
