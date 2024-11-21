@@ -1,0 +1,32 @@
+2024-11-21 15:08:41,471 - INFO - Logging configurado para: data_processing.
+2024-11-21 15:08:41,471 - INFO - Comecando Aplicacao ...
+2024-11-21 15:08:41,471 - INFO - Iniciando o processamento e a unificação dos dados...
+2024-11-21 15:08:41,471 - INFO - Processando arquivo: data/treatment\bcb_data_cambio_bcb.csv
+2024-11-21 15:08:41,488 - INFO - Processando arquivo: data/treatment\bcb_data_commodities_bcb_agropecuaria_em_real.csv
+2024-11-21 15:08:41,512 - INFO - Processando arquivo: data/treatment\bcb_data_commodities_bcb_composto_em_real.csv
+2024-11-21 15:08:41,529 - INFO - Processando arquivo: data/treatment\bcb_data_commodities_bcb_energia_em_real.csv
+2024-11-21 15:08:41,542 - INFO - Processando arquivo: data/treatment\bcb_data_commodities_bcb_metal_em_real.csv
+2024-11-21 15:08:41,554 - INFO - Processando arquivo: data/treatment\bcb_data_core_cpi_bcb.csv
+2024-11-21 15:08:41,561 - INFO - Processando arquivo: data/treatment\bcb_data_fx_buy_bcb.csv
+2024-11-21 15:08:41,586 - INFO - Processando arquivo: data/treatment\bcb_data_fx_sell_bcb.csv
+2024-11-21 15:08:41,589 - INFO - Processando arquivo: data/treatment\bcb_data_gdp_bcb.csv
+2024-11-21 15:08:41,626 - INFO - Processando arquivo: data/treatment\bcb_data_ipca_bcb.csv
+2024-11-21 15:08:41,643 - INFO - Processando arquivo: data/treatment\bcb_data_selic_bcb.csv
+2024-11-21 15:08:41,647 - INFO - Processando arquivo: data/treatment\bcb_data_unemployment_bcb.csv
+2024-11-21 15:08:41,664 - INFO - Processando arquivo: data/treatment\ipeadata_pib_series.csv
+2024-11-21 15:08:41,679 - INFO - Processando arquivo: data/treatment\yahoo_finance_BRL=X.csv
+2024-11-21 15:08:41,691 - INFO - Processando arquivo: data/treatment\yahoo_finance_CL=F.csv
+2024-11-21 15:08:41,696 - INFO - Processando arquivo: data/treatment\yahoo_finance_CPI.csv
+2024-11-21 15:08:41,710 - INFO - Processando arquivo: data/treatment\yahoo_finance_GC=F.csv
+2024-11-21 15:08:41,721 - INFO - Processando arquivo: data/treatment\yahoo_finance_HG=F.csv
+2024-11-21 15:08:41,723 - INFO - Processando arquivo: data/treatment\yahoo_finance_KC=F.csv
+2024-11-21 15:08:41,742 - INFO - Processando arquivo: data/treatment\yahoo_finance_NG=F.csv
+2024-11-21 15:08:41,756 - INFO - Processando arquivo: data/treatment\yahoo_finance_ZC=F.csv
+2024-11-21 15:08:41,767 - INFO - Processando arquivo: data/treatment\yahoo_finance_ZS=F.csv
+2024-11-21 15:08:41,773 - INFO - Processando arquivo: data/treatment\yahoo_finance_ZW=F.csv
+2024-11-21 15:08:41,790 - INFO - Processando arquivo: data/treatment\yahoo_finance_^BVSP.csv
+2024-11-21 15:08:41,799 - INFO - Processando arquivo: data/treatment\yahoo_finance_^GSPC.csv
+2024-11-21 15:08:41,807 - INFO - Processando arquivo: data/treatment\yahoo_finance_^TNX.csv
+2024-11-21 15:08:42,065 - INFO - Base unificada salva em: analysis/dados_unificados.csv
+2024-11-21 15:08:42,173 - INFO - Executando modelos de previsão...
+2024-11-21 15:09:07,593 - INFO - Aplicacao rodou com Sucesso.
