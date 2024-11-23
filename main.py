@@ -5,7 +5,7 @@ from extraction_and_treatment.data_treatment import treatment  # Função para t
 from validation.validateTreatedData import validate_all_treated_data  # Função para validação dos dados tratados
 from eda.eda import run_eda  # Função para análise exploratória dos dados (EDA)
 from models.dataProcessing import processar_e_unificar_dados, gerar_dados_futuros, unificar_com_dados_futuros
-from models.predictionModels import preparar_dados, prever_linear_regression, prever_random_forest, previsao_arima, previsao_sarimax
+from models.predictionModels import preparar_dados, prever_linear_regression, prever_ridge_regression, prever_lasso_regression, prever_random_forest, previsao_arima, previsao_sarimax
 from utils.logging import setup_logging
 from config import ANALYSIS_FOLDER_PATH, TREATMENT_CSV_FOLDER_PATHS
 
@@ -67,6 +67,11 @@ def main():
             # **Processo 9: Executar Modelos de Previsão**
             # Regressão Linear
             prever_linear_regression(y_train, y_test, X_train, X_test)
+
+            prever_ridge_regression(y_train, y_test, X_train, X_test)
+
+            prever_lasso_regression(y_train, y_test, X_train, X_test)
+            
             # Random Forest
             prever_random_forest(y_train, y_test, X_train, X_test)
             # Modelo ARIMA

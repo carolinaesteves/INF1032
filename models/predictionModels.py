@@ -1,11 +1,13 @@
 import pandas as pd
-from sklearn.linear_model import LinearRegression
+from sklearn.linear_model import LinearRegression, Ridge, Lasso
 from sklearn.ensemble import RandomForestRegressor
 from sklearn.metrics import mean_absolute_error, mean_squared_error
+from sklearn.model_selection import GridSearchCV, TimeSeriesSplit
 from statsmodels.tsa.arima.model import ARIMA
 from statsmodels.tsa.statespace.sarimax import SARIMAX
 from statsmodels.tsa.stattools import adfuller
 import matplotlib.pyplot as plt
+import numpy as np
 
 
 def verificar_valores_ausentes(data):
@@ -98,7 +100,49 @@ def prever_linear_regression(y_train, y_test, X_train, X_test):
     model = LinearRegression()
     model.fit(X_train, y_train)  # Treina o modelo
     y_pred = model.predict(X_test)  # Faz previsões
-    return avaliar_modelo(y_test, y_pred, "Linear Regression")
+    return y_pred
+
+def prever_ridge_regression(y_train, y_test, X_train, X_test):
+    """
+    Realiza previsão usando Ridge.
+
+    Args:
+        y_train, y_test: Dados de treino e teste da variável alvo.
+        X_train, X_test: Dados de treino e teste das variáveis exógenas.
+
+    Returns:
+        Avaliação do modelo e previsões.
+    """
+    print("Executando Ridge...")
+    
+    alpha_grid = {'alpha': np.logspace(-4, 1, 50)}  
+    ridge = GridSearchCV(Ridge(), param_grid=alpha_grid, cv=5, scoring='neg_mean_squared_error')
+    ridge.fit(X_train, y_train)  # Fit Ridge with cross-validation
+    best_ridge = ridge.best_estimator_  # Retrieve the best model
+
+    y_pred = best_ridge.predict(X_test)  # Faz previsões
+    return y_pred
+
+
+def prever_lasso_regression(y_train, y_test, X_train, X_test):
+    """
+    Realiza previsão usando Lasso.
+
+    Args:
+        y_train, y_test: Dados de treino e teste da variável alvo.
+        X_train, X_test: Dados de treino e teste das variáveis exógenas.
+
+    Returns:
+        Avaliação do modelo e previsões.
+    """
+    print("Executando Ridge...")
+    alpha_grid = {'alpha': np.logspace(-4, 1, 50)}  
+    lasso = GridSearchCV(Lasso(max_iter=10000), param_grid=alpha_grid, cv=5, scoring='neg_mean_squared_error')
+    lasso.fit(X_train, y_train)  # Fit Lasso with cross-validation
+    best_lasso = lasso.best_estimator_  # Retrieve the best model
+    print(f"Best alpha for Lasso: {lasso.best_params_['alpha']}")
+    y_pred = best_lasso.predict(X_test)  # Faz previsões
+    return y_pred
 
 
 def prever_random_forest(y_train, y_test, X_train, X_test):
