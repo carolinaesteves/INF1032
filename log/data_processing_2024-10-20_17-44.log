@@ -1,0 +1,6 @@
+2024-10-20 17:44:39,793 - INFO - Logging configurado para: data_processing.
+2024-10-20 17:44:39,793 - INFO - Comecando Aplicacao ...
+2024-10-20 17:44:39,793 - INFO - Iniciando analise exploratoria de dados
+2024-10-20 17:44:40,129 - INFO - Iniciando a execução dos modelos preditivos...
+2024-10-20 17:44:40,895 - ERROR - Erro durante a execução dos modelos: 'DataFrame' object has no attribute 'column'
+2024-10-20 17:44:40,895 - INFO - Aplicacao rodou com Sucesso.

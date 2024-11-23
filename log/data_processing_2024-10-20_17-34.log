@@ -1,0 +1,6 @@
+2024-10-20 17:34:15,328 - INFO - Logging configurado para: data_processing.
+2024-10-20 17:34:15,328 - INFO - Comecando Aplicacao ...
+2024-10-20 17:34:15,328 - INFO - Iniciando analise exploratoria de dados
+2024-10-20 17:34:15,736 - INFO - Iniciando a execução dos modelos preditivos...
+2024-10-20 17:34:16,235 - ERROR - Erro durante a execução dos modelos: 'data'
+2024-10-20 17:34:16,235 - INFO - Aplicacao rodou com Sucesso.

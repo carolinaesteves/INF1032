@@ -1,0 +1,13 @@
+2024-10-20 18:31:37,897 - INFO - Logging configurado para: data_processing.
+2024-10-20 18:31:37,898 - INFO - Comecando Aplicacao ...
+2024-10-20 18:31:37,898 - INFO - Iniciando a execução dos modelos preditivos...
+2024-10-20 18:31:38,371 - ERROR - Erro durante a execução dos modelos: 
+    Invalid value of type 'builtins.str' received for the 'mode' property of scatter
+        Received value: 'line'
+
+    The 'mode' property is a flaglist and may be specified
+    as a string containing:
+      - Any combination of ['lines', 'markers', 'text'] joined with '+' characters
+        (e.g. 'lines+markers')
+        OR exactly one of ['none'] (e.g. 'none')
+2024-10-20 18:31:38,371 - INFO - Aplicacao rodou com Sucesso.
