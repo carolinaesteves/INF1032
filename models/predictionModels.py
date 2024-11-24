@@ -135,7 +135,7 @@ def prever_lasso_regression(y_train, y_test, X_train, X_test):
     Returns:
         Avaliação do modelo e previsões.
     """
-    print("Executando Ridge...")
+    print("Executando Lasso...")
     alpha_grid = {'alpha': np.logspace(-4, 1, 50)}  
     lasso = GridSearchCV(Lasso(max_iter=10000), param_grid=alpha_grid, cv=5, scoring='neg_mean_squared_error')
     lasso.fit(X_train, y_train)  # Fit Lasso with cross-validation
@@ -160,7 +160,7 @@ def prever_random_forest(y_train, y_test, X_train, X_test):
     model = RandomForestRegressor(n_estimators=100, random_state=42)
     model.fit(X_train, y_train)  # Treina o modelo
     y_pred = model.predict(X_test)  # Faz previsões
-    return avaliar_modelo(y_test, y_pred, "Random Forest")
+    return y_pred
 
 
 def verificar_estacionaridade(series):

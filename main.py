@@ -8,6 +8,7 @@ from models.dataProcessing import processar_e_unificar_dados, gerar_dados_futuro
 from models.predictionModels import preparar_dados, prever_linear_regression, prever_ridge_regression, prever_lasso_regression, prever_random_forest, previsao_arima, previsao_sarimax
 from utils.logging import setup_logging
 from config import ANALYSIS_FOLDER_PATH, TREATMENT_CSV_FOLDER_PATHS
+from plots import plot
 
 
 def main():
@@ -66,18 +67,22 @@ def main():
 
             # **Processo 9: Executar Modelos de Previsão**
             # Regressão Linear
-            prever_linear_regression(y_train, y_test, X_train, X_test)
+            pred_regression = prever_linear_regression(y_train, y_test, X_train, X_test)
 
-            prever_ridge_regression(y_train, y_test, X_train, X_test)
+            pred_ridge = prever_ridge_regression(y_train, y_test, X_train, X_test)
 
-            prever_lasso_regression(y_train, y_test, X_train, X_test)
+            pred_lasso = prever_lasso_regression(y_train, y_test, X_train, X_test)
             
             # Random Forest
-            prever_random_forest(y_train, y_test, X_train, X_test)
+            pred_rf = prever_random_forest(y_train, y_test, X_train, X_test)
             # Modelo ARIMA
-            previsao_arima(y_train, y_test, order=(2, 0, 2))
+            pred_arima = previsao_arima(y_train, y_test, order=(2, 0, 2))
             # Modelo SARIMAX
-            previsao_sarimax(y_train, y_test, X_train, X_test, order=(2, 0, 2), seasonal_order=(1, 1, 1, 12))
+            pred_sarima = previsao_sarimax(y_train, y_test, X_train, X_test, order=(2, 0, 2), seasonal_order=(1, 1, 1, 12))
+
+            plot([pred_regression,pred_ridge,pred_lasso,y_test, pred_rf],
+                 ['Linear Regression','Ridge','Lasso','True Value', 'Random Forest'],
+                 y_test).show()
 
         logging.info("Aplicação executada com sucesso.")  # Indica que o processo foi concluído sem erros.
     except Exception as e:
